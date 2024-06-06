@@ -1,0 +1,83 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+}
+
+.list-container {
+  width: 315px;
+  height: 555px;
+}
+
+.users-list_item {
+  position: relative;
+  width: 332px;
+  height: 48px;
+  border: 1px solid #DEDEDE; 
+}
+
+.users-name {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #000;
+}
+
+.details-container {
+  position: absolute;
+  top: 5px;
+  left: 455px;
+  width: 289px;
+  height: 569px;
+  border: 1px solid #DEDEDE;
+  border-radius: 1%;
+}
+
+.image {
+  width: 288px;
+  height: 288px;
+}
+
+img {
+  width: 288px;
+  height: 288px;
+}
+
+.title {
+  margin: 0;
+  padding: 15px;
+  border: 1px solid #DEDEDE;
+  font-size: 25px;
+  color: #262A2D;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.list-item {
+  width: 288px;
+  height: 72px;
+  border: 1px solid #DEDEDE;
+  font-size: 19px;
+  color: #262A2D;
+  text-align: left;
+}
+
+.list-item_text {
+  margin: 19px 0 0 15px;
+}
